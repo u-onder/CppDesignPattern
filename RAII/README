@@ -1,0 +1,9 @@
+RAI - Resource Allocation is Initialization
+
+This idioms is constructor and destructor pattern, which means doing 
+something in constructor and undoing in destructor. This binds the 
+resources to the lifetime of an objects. It guarantees the resources 
+are available within the full lifetime of the object, and freed after 
+destruction of an object.
+
+ref: https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization
