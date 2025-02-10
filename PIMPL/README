@@ -1,0 +1,9 @@
+PIMPL - Pointer to İmplementation
+This idiom is used to minimizes dependency to class implementation. 
+It improves compilation times, since changes in main class code, does 
+not require recompilation of the whole source code. It also provide a 
+stable application binary interface. i.e. uses of main class don’t 
+rely on implementation class.
+
+
+ref: https://en.wikipedia.org/wiki/Opaque_pointer
