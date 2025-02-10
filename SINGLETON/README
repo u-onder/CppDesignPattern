@@ -1,0 +1,14 @@
+Singleton
+
+Is used if you want to create "one" instance of an object.
+
+The definition of "one" may change application to application. Is it one 
+in an app or one in system or one in the entire world?
+
+The simple implemention may cause race condition during instance 
+creation. Although there are double check mechanisms using mutexes, 
+compilers does not guarantie real binary implementation following 
+implementation instruction order. But meyers version overcomes this 
+race condition issue.
+
+ref: https://en.wikipedia.org/wiki/Singleton_pattern
