@@ -1,0 +1,6 @@
+Smart Pointers
+
+It is used to implement "smarter pointer operations" like behaviours 
+similar to garbage collection or lazy/late initializations
+
+ref: https://en.wikipedia.org/wiki/Smart_pointer
