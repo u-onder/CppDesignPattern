@@ -1,0 +1,8 @@
+CRTP - Curiously recurring template pattern
+
+It is a static polymorphism in which a base class is specialized on a derivate
+class.  This method eliminates the virtual methods and its overheads. 
+
+Note that, base class is given as derived class template parameter.
+
+ref: https://en.wikipedia.org/wiki/Curiously_recurring_template_pattern
