@@ -1,0 +1,5 @@
+State
+States are used when an objects behavior changes, if its state changes.
+In a classical example, states are classes and removes unnecessary "if" chains
+
+ref: https://en.wikipedia.org/wiki/State_pattern
