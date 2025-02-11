@@ -1,0 +1,8 @@
+CHAIN OF RESPONSIBILITY
+
+This design pattern is for executing a source objects on a set of
+processing services. 
+For example it can be used on a user input validation problem, having
+multiple validation rules.
+
+ref: https://en.wikipedia.org/wiki/Chain-of-responsibility_pattern
