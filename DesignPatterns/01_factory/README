@@ -1,0 +1,8 @@
+Factory
+
+Rather than by calling a constructor, object creation is accomplished 
+by invoking a factory method to create an object.
+It is mostly meaningfull when used with polimorphism, for example:
+it can be used to create different types of messages from json objects etc.
+
+ref: https://en.wikipedia.org/wiki/Factory_method_pattern
