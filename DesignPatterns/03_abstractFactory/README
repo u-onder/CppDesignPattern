@@ -1,0 +1,13 @@
+Abstruct Factory
+
+The abstract factory pattern is a design pattern that provides a way 
+to create families of related objects without imposing their concrete 
+classes, by encapsulating a group of individual factories that have a 
+common theme without specifying their concrete classes.
+
+For example:
+A server can response visual responses to two different markup 
+interprators. Abstruct factory pattern can be used to switch responses 
+you want by assigning related factories.
+
+ref: https://en.wikipedia.org/wiki/Abstract_factory_pattern
